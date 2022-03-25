@@ -1,0 +1,134 @@
+body{
+  font-family: spotify-circular,Helvetica,Arial,sans-serif;
+}
+.my-nav img{
+width: 40px;
+}
+nav{
+    background-color: black;
+    
+}
+
+
+.my-active:hover{
+    color: #1ed760 !important;
+}
+
+
+  .mobile{
+    margin-top: 100px;
+      width: 286px;
+      height: 573px;
+      margin:15px ;
+      border-radius: 40px;
+
+  }
+  .both{
+    padding-top: 85px;
+  }
+  .mobile img{
+      padding-top: 38px;
+      width: 262px;
+      height: 456px;
+  }
+  .speaker{
+    height: 6px;
+    width: 53px;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 38px;
+    border-radius: 40px;
+  }
+
+
+/* section-2 */
+.sec-2 img{
+  width: 142px;
+}
+.card{
+  border: none;
+  
+}
+
+/* .spo-icon img{
+  width: 142px;
+  height: 142px;
+ 
+} */
+@media screen and (max-width: 1200px) {
+  .con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+img {
+  object-fit: contain;
+}
+.sec-3{
+  height: 494px;
+  background-image:linear-gradient(rgb(197, 37, 197),rgb(65, 65, 238));
+  
+}
+.sec-footer{
+  background-color: black;
+}
+.sec-footer li a{
+  color: white;
+}
+.sec-footer a:hover{
+  color: #1ed760;
+}
+.sec-footer i:hover{
+  cursor: pointer;
+  color: #1ed760;
+}
+.sec-footer-row-2 li{
+  padding-right: 20px;
+  list-style: none;
+  color: gray;
+}
+.sec-footer-row-2 p{
+  color: gray;
+  
+}
+.sec-footer-row-2 li:hover{
+  cursor: pointer;
+  color: #1ed760;
+}
+.india{
+  color: gray;
+}
+.form-control small{
+  visibility: hidden;
+  
+}
+.form-control.error small{
+  color: #e74c3c;
+  visibility: visible;
+
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 830px) {
+    .my-line {
+     display: none;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .mobile {
+     display: none;
+    }
+
+  }
+  /* @media only screen and (min-width: 1000px) {
+    .mobile {
+     display: none;
+    }
+
+  } */
